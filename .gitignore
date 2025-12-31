@@ -1,0 +1,93 @@
+# Data files
+*.xlsx
+*.xls
+coaching_data.xlsx
+coaching_data_sample.xlsx
+coaching_data_backup_*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Credentials and secrets (NEVER commit these!)
+credentials.json
+secrets.toml
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dependencies (if you want to check in venv)
+# Uncomment the line below to ignore installed packages
+# venv/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# CSV exports
+*.csv
+exports/
+
+# Logs
+logs/
+*.log
+
+# Database backups
+*_backup.xlsx
